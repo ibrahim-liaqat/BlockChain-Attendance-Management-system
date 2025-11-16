@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Attendance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadAttendancePage()">
+    <header>
+        <h1>Attendance</h1>
+    </header>
+    <nav>
+        <a href="index.html">Dashboard</a>
+    </nav>
+    <main>
+        <section class="card">
+            <h3>Mark Attendance</h3>
+            <select id="studentSelect"></select>
+            <select id="statusSelect">
+                <option value="Present">Present</option>
+                <option value="Absent">Absent</option>
+                <option value="Leave">Leave</option>
+            </select>
+            <button onclick="markAttendance()">Mark Attendance</button>
+        </section>
+
+        <section class="card">
+            <h3>Attendance History</h3>
+            <ul id="attendanceList"></ul>
+        </section>
+    </main>
+
+    <script src="api.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

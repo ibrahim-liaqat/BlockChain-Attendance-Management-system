@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Classes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadClasses()">
+    <header>
+        <h1>Classes</h1>
+    </header>
+    <nav>
+        <a href="index.html">Dashboard</a>
+    </nav>
+    <main>
+        <section class="card">
+            <h3>Add Class</h3>
+            <input type="text" id="className" placeholder="Class Name">
+            <select id="parentDept"></select>
+            <button onclick="addClass()">Add Class</button>
+        </section>
+
+        <section class="card">
+            <h3>All Classes</h3>
+            <ul id="classList"></ul>
+        </section>
+    </main>
+
+    <script src="api.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Departments</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadDepartments()">
+    <header>
+        <h1>Departments</h1>
+    </header>
+    <nav>
+        <a href="index.html">Dashboard</a>
+    </nav>
+    <main>
+        <section class="card">
+            <h3>Add Department</h3>
+            <input type="text" id="deptName" placeholder="Department Name">
+            <button onclick="addDepartment()">Add Department</button>
+        </section>
+
+        <section class="card">
+            <h3>All Departments</h3>
+            <ul id="deptList"></ul>
+        </section>
+    </main>
+
+    <script src="api.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

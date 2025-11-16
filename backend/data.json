@@ -1,0 +1,675 @@
+{
+  "departments": [
+    {
+      "id": "dept_001",
+      "chain": [
+        {
+          "index": 0,
+          "timestamp": "2025-11-15T09:38:36.076Z",
+          "transaction": {
+            "kind": "department_meta",
+            "meta": {
+              "id": "dept_001",
+              "name": "Computer Science",
+              "created_at": "2025-11-15T09:38:36.073Z"
+            }
+          },
+          "prev_hash": "0",
+          "nonce": 47113,
+          "hash": "00009e737e9b25946b82e6ffe078f4cf4b09f3ebc441de16e20c5791d7c8db09"
+        },
+        {
+          "index": 1,
+          "timestamp": "2025-11-16T09:35:35.787Z",
+          "transaction": {
+            "kind": "department_deleted",
+            "status": "deleted",
+            "timestamp": "2025-11-16T09:35:35.787Z"
+          },
+          "prev_hash": "00009e737e9b25946b82e6ffe078f4cf4b09f3ebc441de16e20c5791d7c8db09",
+          "nonce": 50581,
+          "hash": "0000203d6b59ce48394b733fcfd6fefd14952a20e4c70ae9618493a5d00c9e9d"
+        }
+      ],
+      "meta": {
+        "id": "dept_001",
+        "name": "Computer Science",
+        "created_at": "2025-11-15T09:38:36.073Z",
+        "status": "deleted"
+      }
+    },
+    {
+      "id": "dept_002",
+      "chain": [
+        {
+          "index": 0,
+          "timestamp": "2025-11-15T09:39:49.931Z",
+          "transaction": {
+            "kind": "department_meta",
+            "meta": {
+              "id": "dept_002",
+              "name": "Software Engineering",
+              "created_at": "2025-11-15T09:39:49.931Z"
+            }
+          },
+          "prev_hash": "0",
+          "nonce": 58023,
+          "hash": "0000e502a391f0830246424b4b5a713a206f73294c20d8da39719bdd4b408a2d"
+        }
+      ],
+      "meta": {
+        "id": "dept_002",
+        "name": "Software Engineering",
+        "created_at": "2025-11-15T09:39:49.931Z"
+      }
+    },
+    {
+      "id": "dept_mi1jn5gy2fvb4t",
+      "chain": [
+        {
+          "index": 0,
+          "timestamp": "2025-11-16T09:59:11.219Z",
+          "transaction": {
+            "kind": "department_meta",
+            "meta": {
+              "id": "dept_mi1jn5gy2fvb4t",
+              "name": "CS",
+              "created_at": "2025-11-16T09:59:11.218Z"
+            }
+          },
+          "prev_hash": "0",
+          "nonce": 147940,
+          "hash": "00000c21b086d0f886d46c560b25503794ca5c2f917b3046b5d20a9c0d0cef41"
+        }
+      ],
+      "meta": {
+        "id": "dept_mi1jn5gy2fvb4t",
+        "name": "CS",
+        "created_at": "2025-11-16T09:59:11.218Z"
+      }
+    },
+    {
+      "id": "dept_mi1ln9qmgz777y",
+      "chain": [
+        {
+          "index": 0,
+          "timestamp": "2025-11-16T10:55:15.982Z",
+          "transaction": {
+            "kind": "department_meta",
+            "meta": {
+              "id": "dept_mi1ln9qmgz777y",
+              "name": "EE",
+              "created_at": "2025-11-16T10:55:15.982Z"
+            }
+          },
+          "prev_hash": "0",
+          "nonce": 162308,
+          "hash": "0000bfd8d43b2c2777cee7a91ec873b4ae6cc3e91d07ffd4703ab9af20ad913f"
+        }
+      ],
+      "meta": {
+        "id": "dept_mi1ln9qmgz777y",
+        "name": "EE",
+        "created_at": "2025-11-16T10:55:15.982Z"
+      }
+    }
+  ],
+  "classesIndex": {
+    "class_001": {
+      "id": "class_001",
+      "chain": [
+        {
+          "index": 0,
+          "timestamp": "2025-11-15T09:38:36.354Z",
+          "transaction": {
+            "kind": "class_meta",
+            "meta": {
+              "id": "class_001",
+              "name": "Class A",
+              "departmentId": "dept_001",
+              "created_at": "2025-11-15T09:38:36.354Z"
+            }
+          },
+          "prev_hash": "00009e737e9b25946b82e6ffe078f4cf4b09f3ebc441de16e20c5791d7c8db09",
+          "nonce": 13493,
+          "hash": "00003854cfd32c5487c3173b93874998259b09688fa426f13d998314c8c643de"
+        }
+      ],
+      "meta": {
+        "id": "class_001",
+        "name": "Class A",
+        "departmentId": "dept_001",
+        "created_at": "2025-11-15T09:38:36.354Z"
+      }
+    },
+    "class_002": {
+      "id": "class_002",
+      "chain": [
+        {
+          "index": 0,
+          "timestamp": "2025-11-15T09:38:54.043Z",
+          "transaction": {
+            "kind": "class_meta",
+            "meta": {
+              "id": "class_002",
+              "name": "Class B",
+              "departmentId": "dept_001",
+              "created_at": "2025-11-15T09:38:54.043Z"
+            }
+          },
+          "prev_hash": "00009e737e9b25946b82e6ffe078f4cf4b09f3ebc441de16e20c5791d7c8db09",
+          "nonce": 142928,
+          "hash": "00003223908450a6ca864420a6bff400dff3ed8369acedd4938b9841eb480a5e"
+        }
+      ],
+      "meta": {
+        "id": "class_002",
+        "name": "Class B",
+        "departmentId": "dept_001",
+        "created_at": "2025-11-15T09:38:54.043Z"
+      }
+    },
+    "class_003": {
+      "id": "class_003",
+      "chain": [
+        {
+          "index": 0,
+          "timestamp": "2025-11-15T09:39:50.306Z",
+          "transaction": {
+            "kind": "class_meta",
+            "meta": {
+              "id": "class_003",
+              "name": "Class C",
+              "departmentId": "dept_002",
+              "created_at": "2025-11-15T09:39:50.306Z"
+            }
+          },
+          "prev_hash": "0000e502a391f0830246424b4b5a713a206f73294c20d8da39719bdd4b408a2d",
+          "nonce": 33942,
+          "hash": "0000dadf242e9ff6b8ba2f17c90033af189dca3422b8f4ed642319039e9a346b"
+        }
+      ],
+      "meta": {
+        "id": "class_003",
+        "name": "Class C",
+        "departmentId": "dept_002",
+        "created_at": "2025-11-15T09:39:50.306Z"
+      }
+    },
+    "class_004": {
+      "id": "class_004",
+      "chain": [
+        {
+          "index": 0,
+          "timestamp": "2025-11-15T09:40:04.672Z",
+          "transaction": {
+            "kind": "class_meta",
+            "meta": {
+              "id": "class_004",
+              "name": "Class D",
+              "departmentId": "dept_002",
+              "created_at": "2025-11-15T09:40:04.672Z"
+            }
+          },
+          "prev_hash": "0000e502a391f0830246424b4b5a713a206f73294c20d8da39719bdd4b408a2d",
+          "nonce": 6133,
+          "hash": "0000d3df1d54ad50955a592ff93b366560b2a3764b44db8ae15101f1ec8f9f60"
+        }
+      ],
+      "meta": {
+        "id": "class_004",
+        "name": "Class D",
+        "departmentId": "dept_002",
+        "created_at": "2025-11-15T09:40:04.672Z"
+      }
+    },
+    "class_mi1jr65ougywp2": {
+      "id": "class_mi1jr65ougywp2",
+      "chain": [
+        {
+          "index": 0,
+          "timestamp": "2025-11-16T10:02:18.733Z",
+          "transaction": {
+            "kind": "class_meta",
+            "meta": {
+              "id": "class_mi1jr65ougywp2",
+              "name": "classE",
+              "departmentId": "dept_002",
+              "created_at": "2025-11-16T10:02:18.733Z"
+            }
+          },
+          "prev_hash": "0000e502a391f0830246424b4b5a713a206f73294c20d8da39719bdd4b408a2d",
+          "nonce": 77369,
+          "hash": "00001e555876303cba225175ef7e09a151edc4e489fa6ff35af4666255ee2d45"
+        }
+      ],
+      "meta": {
+        "id": "class_mi1jr65ougywp2",
+        "name": "classE",
+        "departmentId": "dept_002",
+        "created_at": "2025-11-16T10:02:18.733Z"
+      }
+    },
+    "class_mi1kp68na1lit4": {
+      "id": "class_mi1kp68na1lit4",
+      "chain": [
+        {
+          "index": 0,
+          "timestamp": "2025-11-16T10:28:45.144Z",
+          "transaction": {
+            "kind": "class_meta",
+            "meta": {
+              "id": "class_mi1kp68na1lit4",
+              "name": "classA",
+              "departmentId": "dept_mi1jn5gy2fvb4t",
+              "created_at": "2025-11-16T10:28:45.144Z"
+            }
+          },
+          "prev_hash": "00000c21b086d0f886d46c560b25503794ca5c2f917b3046b5d20a9c0d0cef41",
+          "nonce": 89288,
+          "hash": "0000c38958c2966485c07a50979357ad7e0185063adc8eddcce1b82ce007198a"
+        }
+      ],
+      "meta": {
+        "id": "class_mi1kp68na1lit4",
+        "name": "classA",
+        "departmentId": "dept_mi1jn5gy2fvb4t",
+        "created_at": "2025-11-16T10:28:45.144Z"
+      }
+    }
+  },
+  "studentsIndex": {
+    "stu_001": {
+      "id": "stu_001",
+      "chain": [
+        {
+          "index": 0,
+          "timestamp": "2025-11-15T09:38:36.429Z",
+          "transaction": {
+            "kind": "student_meta",
+            "meta": {
+              "id": "stu_001",
+              "name": "Student 1",
+              "roll": "1001",
+              "departmentId": "dept_001",
+              "classId": "class_001",
+              "created_at": "2025-11-15T09:38:36.429Z"
+            }
+          },
+          "prev_hash": "00003854cfd32c5487c3173b93874998259b09688fa426f13d998314c8c643de",
+          "nonce": 37985,
+          "hash": "00002c55fe3b25e606f4227fe816b47bf0ff0a6feeb181867a640b442e7d4d2b"
+        },
+        {
+          "index": 1,
+          "timestamp": "2025-11-16T05:16:44.699Z",
+          "transaction": {
+            "kind": "attendance",
+            "studentId": "stu_001",
+            "studentName": "Student 1",
+            "roll": "1001",
+            "departmentId": "dept_001",
+            "classId": "class_001",
+            "status": "Present",
+            "timestamp": "2025-11-16T05:16:44.699Z"
+          },
+          "prev_hash": "00002c55fe3b25e606f4227fe816b47bf0ff0a6feeb181867a640b442e7d4d2b",
+          "nonce": 39735,
+          "hash": "0000b21c0687aafb26e04acf3d2f3c171947888966c422c07e8b785b6f8385ba"
+        }
+      ],
+      "meta": {
+        "id": "stu_001",
+        "name": "Student 1",
+        "roll": "1001",
+        "departmentId": "dept_001",
+        "classId": "class_001",
+        "created_at": "2025-11-15T09:38:36.429Z"
+      }
+    },
+    "stu_002": {
+      "id": "stu_002",
+      "chain": [
+        {
+          "index": 0,
+          "timestamp": "2025-11-15T09:38:36.631Z",
+          "transaction": {
+            "kind": "student_meta",
+            "meta": {
+              "id": "stu_002",
+              "name": "Student 2",
+              "roll": "1002",
+              "departmentId": "dept_001",
+              "classId": "class_001",
+              "created_at": "2025-11-15T09:38:36.631Z"
+            }
+          },
+          "prev_hash": "00003854cfd32c5487c3173b93874998259b09688fa426f13d998314c8c643de",
+          "nonce": 11450,
+          "hash": "0000a44289d4b0fc9f7578f91cda3b8174333e8822c1616c5807a269dc104094"
+        }
+      ],
+      "meta": {
+        "id": "stu_002",
+        "name": "Student 2",
+        "roll": "1002",
+        "departmentId": "dept_001",
+        "classId": "class_001",
+        "created_at": "2025-11-15T09:38:36.631Z"
+      }
+    },
+    "stu_003": {
+      "id": "stu_003",
+      "chain": [
+        {
+          "index": 0,
+          "timestamp": "2025-11-15T09:38:55.115Z",
+          "transaction": {
+            "kind": "student_meta",
+            "meta": {
+              "id": "stu_003",
+              "name": "Student 3",
+              "roll": "2001",
+              "departmentId": "dept_001",
+              "classId": "class_002",
+              "created_at": "2025-11-15T09:38:55.115Z"
+            }
+          },
+          "prev_hash": "00003223908450a6ca864420a6bff400dff3ed8369acedd4938b9841eb480a5e",
+          "nonce": 66798,
+          "hash": "00000de687f61eca56af96b0539ac329cfc816e8a06bf564351f323c51d0db03"
+        }
+      ],
+      "meta": {
+        "id": "stu_003",
+        "name": "Student 3",
+        "roll": "2001",
+        "departmentId": "dept_001",
+        "classId": "class_002",
+        "created_at": "2025-11-15T09:38:55.115Z"
+      }
+    },
+    "stu_004": {
+      "id": "stu_004",
+      "chain": [
+        {
+          "index": 0,
+          "timestamp": "2025-11-15T09:38:55.655Z",
+          "transaction": {
+            "kind": "student_meta",
+            "meta": {
+              "id": "stu_004",
+              "name": "Student 4",
+              "roll": "2002",
+              "departmentId": "dept_001",
+              "classId": "class_002",
+              "created_at": "2025-11-15T09:38:55.655Z"
+            }
+          },
+          "prev_hash": "00003223908450a6ca864420a6bff400dff3ed8369acedd4938b9841eb480a5e",
+          "nonce": 18140,
+          "hash": "00000f29043aba7a59b5d300252068d267e81ee9facd287f280e9bfce6ef5964"
+        }
+      ],
+      "meta": {
+        "id": "stu_004",
+        "name": "Student 4",
+        "roll": "2002",
+        "departmentId": "dept_001",
+        "classId": "class_002",
+        "created_at": "2025-11-15T09:38:55.655Z"
+      }
+    },
+    "stu_005": {
+      "id": "stu_005",
+      "chain": [
+        {
+          "index": 0,
+          "timestamp": "2025-11-15T09:38:55.781Z",
+          "transaction": {
+            "kind": "student_meta",
+            "meta": {
+              "id": "stu_005",
+              "name": "Student 5",
+              "roll": "2003",
+              "departmentId": "dept_001",
+              "classId": "class_002",
+              "created_at": "2025-11-15T09:38:55.781Z"
+            }
+          },
+          "prev_hash": "00003223908450a6ca864420a6bff400dff3ed8369acedd4938b9841eb480a5e",
+          "nonce": 40165,
+          "hash": "0000aa966324d373dbdc1d50af431eced6ef0d7762514004269f76ea9d008d8d"
+        }
+      ],
+      "meta": {
+        "id": "stu_005",
+        "name": "Student 5",
+        "roll": "2003",
+        "departmentId": "dept_001",
+        "classId": "class_002",
+        "created_at": "2025-11-15T09:38:55.781Z"
+      }
+    },
+    "stu_006": {
+      "id": "stu_006",
+      "chain": [
+        {
+          "index": 0,
+          "timestamp": "2025-11-15T09:39:50.520Z",
+          "transaction": {
+            "kind": "student_meta",
+            "meta": {
+              "id": "stu_006",
+              "name": "Student 6",
+              "roll": "3001",
+              "departmentId": "dept_002",
+              "classId": "class_003",
+              "created_at": "2025-11-15T09:39:50.520Z"
+            }
+          },
+          "prev_hash": "0000dadf242e9ff6b8ba2f17c90033af189dca3422b8f4ed642319039e9a346b",
+          "nonce": 52924,
+          "hash": "0000b802e8c218fb99ecce06da1a414a84289628c33dbc7991855b0f59273037"
+        }
+      ],
+      "meta": {
+        "id": "stu_006",
+        "name": "Student 6",
+        "roll": "3001",
+        "departmentId": "dept_002",
+        "classId": "class_003",
+        "created_at": "2025-11-15T09:39:50.520Z"
+      }
+    },
+    "stu_007": {
+      "id": "stu_007",
+      "chain": [
+        {
+          "index": 0,
+          "timestamp": "2025-11-15T09:39:50.927Z",
+          "transaction": {
+            "kind": "student_meta",
+            "meta": {
+              "id": "stu_007",
+              "name": "Student 7",
+              "roll": "3002",
+              "departmentId": "dept_002",
+              "classId": "class_003",
+              "created_at": "2025-11-15T09:39:50.927Z"
+            }
+          },
+          "prev_hash": "0000dadf242e9ff6b8ba2f17c90033af189dca3422b8f4ed642319039e9a346b",
+          "nonce": 5763,
+          "hash": "0000e86b32cc0d8babe9c55a47f9d7c385156de21052cf0d0d439b94a72dc521"
+        },
+        {
+          "index": 1,
+          "timestamp": "2025-11-16T10:49:54.450Z",
+          "transaction": {
+            "kind": "attendance",
+            "studentId": "stu_007",
+            "studentName": "Student 7",
+            "roll": "3002",
+            "departmentId": "dept_002",
+            "classId": "class_003",
+            "status": "Leave",
+            "timestamp": "2025-11-16T10:49:54.450Z"
+          },
+          "prev_hash": "0000e86b32cc0d8babe9c55a47f9d7c385156de21052cf0d0d439b94a72dc521",
+          "nonce": 136128,
+          "hash": "0000df9eb4d6e51eb56f7745e9987f27332a56ce9ed8c49ec5e6a890118f2488"
+        }
+      ],
+      "meta": {
+        "id": "stu_007",
+        "name": "Student 7",
+        "roll": "3002",
+        "departmentId": "dept_002",
+        "classId": "class_003",
+        "created_at": "2025-11-15T09:39:50.927Z"
+      }
+    },
+    "stu_008": {
+      "id": "stu_008",
+      "chain": [
+        {
+          "index": 0,
+          "timestamp": "2025-11-15T09:40:04.710Z",
+          "transaction": {
+            "kind": "student_meta",
+            "meta": {
+              "id": "stu_008",
+              "name": "Student 8",
+              "roll": "4001",
+              "departmentId": "dept_002",
+              "classId": "class_004",
+              "created_at": "2025-11-15T09:40:04.710Z"
+            }
+          },
+          "prev_hash": "0000d3df1d54ad50955a592ff93b366560b2a3764b44db8ae15101f1ec8f9f60",
+          "nonce": 52141,
+          "hash": "00001effced0017f303e25a7198d2c48dc976f66c7f62a3859f48357b9cd06db"
+        }
+      ],
+      "meta": {
+        "id": "stu_008",
+        "name": "Student 8",
+        "roll": "4001",
+        "departmentId": "dept_002",
+        "classId": "class_004",
+        "created_at": "2025-11-15T09:40:04.710Z"
+      }
+    },
+    "stu_009": {
+      "id": "stu_009",
+      "chain": [
+        {
+          "index": 0,
+          "timestamp": "2025-11-15T09:40:04.974Z",
+          "transaction": {
+            "kind": "student_meta",
+            "meta": {
+              "id": "stu_009",
+              "name": "Student 9",
+              "roll": "4002",
+              "departmentId": "dept_002",
+              "classId": "class_004",
+              "created_at": "2025-11-15T09:40:04.974Z"
+            }
+          },
+          "prev_hash": "0000d3df1d54ad50955a592ff93b366560b2a3764b44db8ae15101f1ec8f9f60",
+          "nonce": 61008,
+          "hash": "0000c10c0544cfeafa22f39516d0b179650e03cf4356ad64e702c6483dad5332"
+        }
+      ],
+      "meta": {
+        "id": "stu_009",
+        "name": "Student 9",
+        "roll": "4002",
+        "departmentId": "dept_002",
+        "classId": "class_004",
+        "created_at": "2025-11-15T09:40:04.974Z"
+      }
+    },
+    "stu_010": {
+      "id": "stu_010",
+      "chain": [
+        {
+          "index": 0,
+          "timestamp": "2025-11-15T09:40:05.305Z",
+          "transaction": {
+            "kind": "student_meta",
+            "meta": {
+              "id": "stu_010",
+              "name": "Student 10",
+              "roll": "4003",
+              "departmentId": "dept_002",
+              "classId": "class_004",
+              "created_at": "2025-11-15T09:40:05.305Z"
+            }
+          },
+          "prev_hash": "0000d3df1d54ad50955a592ff93b366560b2a3764b44db8ae15101f1ec8f9f60",
+          "nonce": 28393,
+          "hash": "00003b136d79caaa06a2130ed7764f05505e13c9c99efa054390ea089c88a8df"
+        },
+        {
+          "index": 1,
+          "timestamp": "2025-11-16T10:48:57.594Z",
+          "transaction": {
+            "kind": "attendance",
+            "studentId": "stu_010",
+            "studentName": "Student 10",
+            "roll": "4003",
+            "departmentId": "dept_002",
+            "classId": "class_004",
+            "status": "Present",
+            "timestamp": "2025-11-16T10:48:57.593Z"
+          },
+          "prev_hash": "00003b136d79caaa06a2130ed7764f05505e13c9c99efa054390ea089c88a8df",
+          "nonce": 37560,
+          "hash": "00009b0748d26df8678d94839eb840e9e75af8098f69e63ecc1e5e4f7eee2359"
+        }
+      ],
+      "meta": {
+        "id": "stu_010",
+        "name": "Student 10",
+        "roll": "4003",
+        "departmentId": "dept_002",
+        "classId": "class_004",
+        "created_at": "2025-11-15T09:40:05.305Z"
+      }
+    },
+    "stu_mi1joio38tdqfe": {
+      "id": "stu_mi1joio38tdqfe",
+      "chain": [
+        {
+          "index": 0,
+          "timestamp": "2025-11-16T10:00:14.979Z",
+          "transaction": {
+            "kind": "student_meta",
+            "meta": {
+              "id": "stu_mi1joio38tdqfe",
+              "name": "Hassan",
+              "roll": "3700",
+              "departmentId": "dept_002",
+              "classId": "class_004",
+              "created_at": "2025-11-16T10:00:14.979Z"
+            }
+          },
+          "prev_hash": "0000d3df1d54ad50955a592ff93b366560b2a3764b44db8ae15101f1ec8f9f60",
+          "nonce": 1364,
+          "hash": "00003d84947e29f0d322ca10a471b0eb4292148ca4b86bf11e55fb6ff5a1cc3f"
+        }
+      ],
+      "meta": {
+        "id": "stu_mi1joio38tdqfe",
+        "name": "Hassan",
+        "roll": "3700",
+        "departmentId": "dept_002",
+        "classId": "class_004",
+        "created_at": "2025-11-16T10:00:14.979Z"
+      }
+    }
+  }
+}
