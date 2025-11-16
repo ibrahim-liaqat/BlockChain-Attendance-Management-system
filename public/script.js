@@ -1,5 +1,5 @@
 /* script.js — frontend for your backend implementation (soft delete only) */
-const API_BASE = "http://localhost:3000/api";
+const API_BASE = "https://attendancemanage-six.vercel.app/api";
 const TIMEOUT_MS = 20000;
 
 function el(id){ return document.getElementById(id); }
